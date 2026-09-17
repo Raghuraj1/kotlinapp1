@@ -18,8 +18,12 @@
         </activity>
         <activity
             android:name=".Welcome"
-            android:exported="false"
+            android:exported="true"
             android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Login"
@@ -29,13 +33,9 @@
         </activity>
         <activity
             android:name=".create_ac"
-            android:exported="true"
+            android:exported="false"
             android:windowSoftInputMode="adjustResize">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

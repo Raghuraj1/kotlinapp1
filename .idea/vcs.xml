@@ -2,8 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ANIMATION" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/PORTIFOLIO" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/TEKKEN 3/tekken-3-game" vcs="Git" />
   </component>
 </project>
