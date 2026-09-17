@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="365dp"
+        android:layout_height="356dp"
+        app:srcCompat="@drawable/singup_img"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="379dp"
+        android:layout_height="107dp"
+        android:gravity="center"
+        android:text="Discover your \ndream job here"
+        android:textColor="#3349E0"
+        android:textSize="42dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Explore all the exsisting job roles based on your \nintrest and study major"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="649dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="48dp">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:textSize="25dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="#3349E0"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Register"
+            android:textSize="25dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="#F8F2EFEF"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
